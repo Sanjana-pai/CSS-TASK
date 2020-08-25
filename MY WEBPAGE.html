@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+<title>MY WEB PAGE</title>
+</head>
+<style>
+
+body {
+  font-family: Arial;
+margin:0;
+
+background-image:url("clouds.jpg");
+background-repeat: no-repeat;
+background-size: 1450px 1000px;
+ 
+}
+input {
+  width: 60%;
+}
+.center {
+  padding: 100px 0;
+  border: 5px solid black;
+  text-align: center;
+}
+.column {
+
+margin:0 13.9%;
+  float: left;
+  width: 20%;
+  padding: 55px 0px;
+  height: 119px; 
+
+}
+.row:after {
+
+  content: "";
+  display: table;
+  clear: both;
+}
+.header {
+  padding:5px;
+  text-align: center;
+  background:;
+  color: black;
+  font-size: 30px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background:;
+   color: black;
+   text-align: center;
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>MY WEB PAGE</h1>
+  
+</div>
+<div class="center">
+<div class="row">
+  <div class="column" style="background-color:grey;">
+   <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br><br><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br><br><br>
+<input type="Submit" valuse="Submit">
+  </div>
+  <div class="column" style="background-color:grey;">
+    <label for="add">Address</label>
+    <input type="text" id="add" name="address" placeholder="Your address.."><br><br><br><br>
+
+    <label for="Phone">Phone No</label>
+    <input type="text" id="Phone" name="Phone No." placeholder="Your Phone No..."><br><br><br><br>
+<input type="Submit" value="Submit">
+  </div>
+  
+  
+</div>
+
+  
+</div>
+
+<div class="footer">
+  <footer> <big>&copy; Copyright 2020, All Rights are Reserved.</big></footer> 
+</div>
+
+</body>
+</html>
